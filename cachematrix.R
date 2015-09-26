@@ -14,8 +14,8 @@
 ## in the program(MakeCacheMatrix) i have put 1-4(as a comment),where this is done
 
 makeCacheMatrix <- function(x = matrix()) { 
-  m <- NULL ## Set the mean to NULL (1) 
-
+  ## Set the mean to NULL (1) 
+  m <- NULL 
   ## The set function defines a new funtion that set the matrix x to a new matrix y
   ## and resets the inverse m to NULL (1).
   ## I have used `<<-` to assign a value to an object in an environment 
